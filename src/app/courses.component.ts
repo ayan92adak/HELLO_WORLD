@@ -1,22 +1,14 @@
 import {Component} from '@angular/core'
 
+
 @Component({
     selector: 'courses' ,
-    template: `<h2>{{ title }}</h2>
-                <ul>
-                    <li *ngFor="let course of courses">
-                        {{ course }}
-                    </li>
-                </ul> 
-                `
+    template: `
+        {{  text | summery }}
+    `
 })
 export class CoursesComponent {
-
-    title = "List of courses";
-    courses = ["course1", "course2", "course3"];
-
-    getTitle(){
-        return this.title;
-    }
+   text = `qq jsd;laj ad;lsfkja ';lasd;'f la ;sdl;'
+   asdl;'askd';kads;'kda;'skd;'aslk k ll;s;;sjkjdejd`
     
 }
