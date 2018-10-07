@@ -8,6 +8,7 @@ import { CoursesService } from './courses.service';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { SummeryPipe } from './summery.pipe';
 import { PanelComponent } from './panel/panel.component';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PanelComponent } from './panel/panel.component';
     CourseComponent,
     FavoriteComponent,
     SummeryPipe,
-    PanelComponent
+    PanelComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
